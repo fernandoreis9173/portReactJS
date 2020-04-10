@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 
-import "./styles.css";
-
-const Header = () => 
-    <header id="main-header">JSHunt</header>
-
+class Header extends Component {
+  render() {
+    return (
+      <Navbar bg="primary" variant="dark" className="fixed-top">
+        <Navbar.Brand href="#">Agenda Usando ReactJS + NodeJS</Navbar.Brand>
+      </Navbar>
+    );
+  }
+}
 
 export default Header;

@@ -1,0 +1,43 @@
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  text-align: center;
+}
+
+.contact-box {
+  margin-top: 60px;
+  margin-bottom: 70px;
+  margin-block-end: 130px;
+}
+
+.table-responsive {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.table-responsive button{
+  margin: 2px;
+}
+.pagination {
+  display: inline;
+}
+
+.pagination a {
+  border: 1px solid #ddd; /* Gray */
+  color: white;
+  background-color: #343a40;
+  float: left;
+  padding: 8px 16px;
+  margin: 0 4px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}

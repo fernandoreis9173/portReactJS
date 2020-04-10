@@ -1,13 +1,19 @@
-import React from 'react';
-
-import "./styles.css";
-
+import React, { Component } from 'react';
 import Header from './components/Header';
+import ContactBox from './components/Contact';
+import Footer from './components/Footer';
+import './App.css';
 
-const App = () => (
-  <div className="App">
-    <Header/>
-  </div>
-)
+class App extends Component {
+  render () {
+    return (
+      <div className="container">
+        <Header/>
+        <ContactBox/>
+        <Footer/>
+      </div>
+    );
+  }
+}
 
 export default App;
